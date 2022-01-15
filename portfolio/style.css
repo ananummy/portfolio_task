@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
     font-family: 'Inter', sans-serif;
@@ -79,6 +83,14 @@ ul {
     justify-content: center;
     align-items: center;
     padding-right: 30px;
+    color:#FFFFFF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
 }
 
 .h1-section-title {
@@ -217,6 +229,99 @@ ul {
     flex-direction: column;
 }
 
+.video-section {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-section {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-section {
+    background: url('assets/img/contacts.jpg');
+    width: auto;
+    height: 700px;
+    background-position: center center;
+}
+
+.contacts-container {
+    width: 450px;
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 195px;
+    padding-top: 0px;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.contact-item{
+    height: 445px;
+    height: 50px;
+    border: 2px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    background: transparent;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.contact-item.textarea {
+    height: 100px;
+    margin-bottom: 30px;
+    padding-bottom: 55px;
+}
+
+.contact-botton{
+    height: 55px;
+    width: 220px;
+    border: 0;
+    background-color: #bdae82;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.contacts-title {
+    height: 80px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    color: #BDAE82;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.contact-item::placeholder {
+    font-family: inherit;
+    color: #bdae82;
+    font-size: 20px;
+}
+
 .portfolio.section-title {
     margin-top: 100px;
 }
@@ -266,14 +371,6 @@ ul {
     padding: 0;
 }
 
-.video-section {
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
 .video-container {
     padding: 0;
     margin: 0;
@@ -300,14 +397,6 @@ ul {
     width: 1400px;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.price-section {
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
 }
 
 .price-container {
@@ -393,81 +482,12 @@ ul {
     padding-top: 8px;
 }
 
-.contacts-section {
-    background: url('assets/img/contacts.jpg');
-    width: auto;
-    height: 700px;
-    background-position: center center;
-}
-
-.contacts-container {
-    width: 450px;
-    height: 445px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 195px;
-    padding-top: 0px;
-    margin-right: 20px;
-    margin-left: auto;
-}
-
-.contact-item{
-    height: 445px;
-    height: 50px;
-    border: 2px solid #BDAE82;
-    box-sizing: border-box;
-    border-radius: 0px;
-    margin-bottom: 20px;
-    background: transparent;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-}
-
-.contact-item.textarea {
-    height: 100px;
-    margin-bottom: 30px;
-    padding-bottom: 55px;
-}
-
-.contact-botton{
-    height: 55px;
-    width: 220px;
-    border: 0;
-    background-color: #bdae82;
-    cursor: pointer;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 40px;
-    color: black;
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 7px;
-}
-
-.contacts-title {
-    height: 80px;
-    font-family: "Merriweather";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 80px;
-    color: #BDAE82;
-    margin-bottom: 40px;
-    margin-top: 60px;
-}
-
-.contact-item::placeholder {
-    font-family: inherit;
-    color: #bdae82;
-    font-size: 20px;
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #bdae82;
+  transition: background-color 0s ease-in-out 9000s;
 }
 
 .footer-container {
@@ -480,6 +500,7 @@ ul {
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
+    transition: 0.3s;
 }
 
 .footer-data {
@@ -489,6 +510,12 @@ ul {
     justify-content: space-between;
     padding-right: 13px;
     justify-self: flex-start;
+}
+
+.footer-text {
+    color:#FFFFFF;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 .github:hover {
@@ -509,15 +536,7 @@ ul {
     width: 188px;
 }
 
-.link:hover {
+.social-list:hover {
     filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
       contrast(87%);
-}
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-  -webkit-text-fill-color: #bdae82;
-  transition: background-color 0s ease-in-out 9000s;
 }
