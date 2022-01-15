@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header class="header">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
         <div class="container">
             <ul class="header-container">
                 <li class="logo">
                     <img src="assets/svg/logo.svg" alt="logo">
                 </li>
                 <li class="nav-list">
-                    <a class="nav">Skills</a>
-                    <a class="nav">Portfolio</a>
-                    <a class="nav">Video</a>
-                    <a class="nav">Price</a>
-                    <a class="nav">Contacts</a>
+                    <a class="nav" href="#skills">Skills</a>
+                    <a class="nav" href="#portfolio">Portfolio</a>
+                    <a class="nav" href="#video">Video</a>
+                    <a class="nav" href="#price">Price</a>
+                    <a class="nav" href="#contacts">Contacts</a>
                 </li>
                 <li class="language-list">
                     <img src="assets/svg/switch-lng.svg" alt="switch">
                 </li>
             </ul>
         </div>
-    </header>
-    <main class="main">
+
+        </header>
+        <main class="main">
         <div class="main-container container">
             <section class="hero-section section">
                 <div class="hero-info">
@@ -41,7 +42,7 @@
                     <button class="botton">Hire me</button>
                 </div>
             </section>
-            <section class="skills-section section">
+            <section class="skills-section section" id="skills">
                 <h2 class="skills section-title">
                     <a class="title-text">Skills</a>
                 </h2>
@@ -68,7 +69,7 @@
                     </div>
                 </div>
             </section>
-            <section class="portfolio-section section">
+            <section class="portfolio-section section" id="portfolio">
                 <h2 class="portfolio section-title">
                     <a class="title-text">Portfolio</a>
                 </h2>
@@ -85,10 +86,9 @@
                     <img src="assets/img/portfolio-img(3).jpg" class="picture" alt="picture_4">
                     <img src="assets/img/portfolio-img(4).jpg" class="picture" alt="picture_5">
                     <img src="assets/img/portfolio-img(5).jpg" class="picture" alt="picture_6">
-
                 </div>
             </section>
-            <section class="video-section section">
+            <section class="video-section section" id="video">
                 <div class="video-container">
                     <h2 class="video section-title">
                         <a class="title-text">Video</a>
@@ -100,7 +100,7 @@
                     </form>
                 </div>
             </section>
-            <section class="price-section section">
+            <section class="price-section section" id="price">
                 <h2 class="section-title">
                     <a class="title-text">Price</a>
                 </h2>
@@ -115,11 +115,9 @@
                             <span class="description-line">Readiness 2-3 weeks</span>
                             <span class="description-line">Make up, visage</span>
                         </div>
-                        <form>
-                            <botton class="order-botton">
-                                <span class="botton">Order shooting</span>
-                            </botton>
-                        </form>
+                        <botton class="order-botton">
+                            <span class="botton">Order shooting</span>
+                        </botton>
                     </div>
                     <div class="price-item">
                         <h2 class="price-type">Premium</h2>
@@ -151,7 +149,7 @@
                     </div>
                 </div>
             </section>
-            <section class="contacts-section section">
+            <section class="contacts-section section" id="contacts">
                 <div class="contacts-container">
                     <h2 class="contacts-title">Contact me</h2>
                     <input type="email" name="email-form" class="contact-item email" placeholder="E-mail">
@@ -161,21 +159,21 @@
                 </div>
             </section>
         </div>
-    </main>
-    <footer class="footer">
+        </main>
+        <footer class="footer">
         <ul class="footer-container container">
             <li class="footer-data">
-                <div class="footer-text">©</div>
-                <div class="footer-text">2022</div>
-                <div class="footer-text github">github</d>
+                <a class="footer-text">©</a>
+                <a class="footer-text">2022</a>
+                <a class="footer-text github" href="https://github.com/ananummy">github</a>
             </li>
             <li class="rss">
-                <div class="footer-text">Rolling Scopes School</div>
+                <a class="footer-text" href="https://rs.school/js-stage0/">Rolling Scopes School</a>
             </li>
             <li class="social-list">
                 <img src="assets/svg/social-list.svg" alt="social-list">
             </li>
         </ul>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>
