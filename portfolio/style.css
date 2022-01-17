@@ -96,6 +96,17 @@ ul {
       contrast(87%);
 }
 
+.switch {
+    display: flex;
+    width: 70px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.en {
+    color:#bdae82;
+}
+
 .h1-section-title {
     font-family: 'Merriweather', serif;
     font-style: normal;
