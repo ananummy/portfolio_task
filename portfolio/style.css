@@ -34,6 +34,9 @@ ul {
     background: url(https://s3-alpha-sig.figma.com/img/fffa/ae04/12af1428d722f02f52da64cdd10683b7?Expires=1642982400&Signature=PvqIx7Vip3oi62T~Ri9UGbNRcWSWn3yKxewuxAAybjHJY00gXC~ebaHBUvUYwoqBL5s1-biYKFWoc7VexfGzFR8LLNdR-wy~mK5h0f4I4CGRHbTQv0KrEfOEwo0E1TnL9FyK0WWGWGaBR~lzytNNl7Mr-NJLXi-ZMpohZsX948uCh4~wwJvxj540Y3GcPJawAFF7glAM0TykopsdFFoVxcnWbvxLXVGmd4zqEYkmbqGhCmW6zOHGCwuKY2ngVAbmO~q4DDMJGTl0BbE8D0yAbWzT0RspjZ8IXzLrVas8tePB9i60-CrwxIhEDYY8BPQY9zM3JvZOGF8YEvA5lzZmbA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
     background-repeat: no-repeat;
     background-position: center 0;
+}
+
+.header-section {
     display: flex;
     flex-direction: row;
     padding: 20px;
