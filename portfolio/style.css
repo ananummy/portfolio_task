@@ -31,7 +31,7 @@ ul {
 }
 
 .header-container {
-    background: url('.assets/img/bg.png');
+    background: url("assets/img/bg.png");
     background-repeat: no-repeat;
     background-position: center 0;
 }
@@ -48,7 +48,7 @@ ul {
 }
 
 .hero-section {
-    background-image: url('.assets/img/bg.png');
+    background-image: url("assets/img/bg.png");
     background-position: center -90px;
     background-repeat: no-repeat;
     padding-top: 20px;
@@ -262,7 +262,7 @@ ul {
 }
 
 .contacts-section {
-    background: url('.assets/img/contacts.jpg');
+    background: url("assets/img/contacts.jpg");
     width: auto;
     height: 700px;
     background-position: center center;
@@ -408,7 +408,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('.assets/img/video-player.jpg');
+    background-image: url("assets/img/video-player.jpg");
     height: 705px;
     width: 1400px;
     margin-left: 20px;
