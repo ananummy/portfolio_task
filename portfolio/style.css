@@ -31,7 +31,7 @@ ul {
 }
 
 .header-container {
-    background: url(https://s3-alpha-sig.figma.com/img/fffa/ae04/12af1428d722f02f52da64cdd10683b7?Expires=1642982400&Signature=PvqIx7Vip3oi62T~Ri9UGbNRcWSWn3yKxewuxAAybjHJY00gXC~ebaHBUvUYwoqBL5s1-biYKFWoc7VexfGzFR8LLNdR-wy~mK5h0f4I4CGRHbTQv0KrEfOEwo0E1TnL9FyK0WWGWGaBR~lzytNNl7Mr-NJLXi-ZMpohZsX948uCh4~wwJvxj540Y3GcPJawAFF7glAM0TykopsdFFoVxcnWbvxLXVGmd4zqEYkmbqGhCmW6zOHGCwuKY2ngVAbmO~q4DDMJGTl0BbE8D0yAbWzT0RspjZ8IXzLrVas8tePB9i60-CrwxIhEDYY8BPQY9zM3JvZOGF8YEvA5lzZmbA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background: url('./assets/img/bg.png');
     background-repeat: no-repeat;
     background-position: center 0;
 }
@@ -48,7 +48,7 @@ ul {
 }
 
 .hero-section {
-    background-image: url(https://s3-alpha-sig.figma.com/img/fffa/ae04/12af1428d722f02f52da64cdd10683b7?Expires=1642982400&Signature=PvqIx7Vip3oi62T~Ri9UGbNRcWSWn3yKxewuxAAybjHJY00gXC~ebaHBUvUYwoqBL5s1-biYKFWoc7VexfGzFR8LLNdR-wy~mK5h0f4I4CGRHbTQv0KrEfOEwo0E1TnL9FyK0WWGWGaBR~lzytNNl7Mr-NJLXi-ZMpohZsX948uCh4~wwJvxj540Y3GcPJawAFF7glAM0TykopsdFFoVxcnWbvxLXVGmd4zqEYkmbqGhCmW6zOHGCwuKY2ngVAbmO~q4DDMJGTl0BbE8D0yAbWzT0RspjZ8IXzLrVas8tePB9i60-CrwxIhEDYY8BPQY9zM3JvZOGF8YEvA5lzZmbA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-image: url('./assets/img/bg.png');
     background-position: center -90px;
     background-repeat: no-repeat;
     padding-top: 20px;
@@ -262,7 +262,7 @@ ul {
 }
 
 .contacts-section {
-    background: url(https://s3-alpha-sig.figma.com/img/bb16/a13c/a1a2e2626ca658fe87e53a9bae63dac1?Expires=1642982400&Signature=U2h6wLmbZNcAcBKM0B0CvnnQEIdlT0l8xjbeLFf9wVJBMPyG1Sq-6W-hDi5mASaLzqcIIrOf6nfWo6g7RW7TlI6ttlXpOCWg2ZudNKzw-wV4dDjBkBxBhleLpEllj3F-~Bn2EjzpXl~VKc-WFoV1D9jwIk3lxr9qlPPzHTJqIPMxygb~iY~n0whHUxcJOw0wzCrHX10fdDtnzGhG19p4TBhRV9gnj--2GmHzur8neG3ulZ6kynRGxnUTVsST18RYoWzEBMuXH4wI1bUjbeKvyrreEOs-4CYjG3rX3UJstysP2ukYjgjL5l3Rx82MybtHwOKm4KYGu260sIKETtVDew__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background: url('./assets/img/contacts.jpg');
     width: auto;
     height: 700px;
     background-position: center center;
@@ -408,7 +408,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://s3-alpha-sig.figma.com/img/5d91/d997/1f63a396f05c05edb51d911579be7b3d?Expires=1642982400&Signature=F8zOVZeqfpZMMknfyLJVdlbOlBX36dx03P1H0QO2ikhOFG5YdLQ-vWABR7nDNErmsh~hkZ2gtVY~WHbthXWHxv8oZJUdq4zi8aRvc0IbUAnOc-4PwyvS7UE3atL6nJbnMwynsIRUvJ-HQpVFQpe4mR9cgw2G9h60FH0Q7oghivKxH-G883p7wwCTUEYcNDhKyn75gwNChUO-kpk-xHdunFfSDy76OPR3ieBmNhT5R71EQHhdr00E~klhj024rPqe0GWgr8YPZFTXBo7-cFvaU7akA64aDPEsihakjIiCFaZX51HzsSYTTOZ0l9ZrNAKeEzIjRFJNVyO1uPzsbGuC5w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-image: url('./assets/img/video-player.jpg');
     height: 705px;
     width: 1400px;
     margin-left: 20px;
